@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    color: #212529;
+}
+
+.header {
+    text-align: center;
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 20px;
+}
+
+.table-container {
+    margin: 10px auto;
+    width: 60%;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table-container th, .table-container td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: center;
+}
+
+.highlight {
+    color: #800000;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.large-text {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.search-engines {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-engines img {
+    width: 100px;
+    margin: 0 15px;
+}
